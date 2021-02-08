@@ -1,0 +1,13 @@
+@import "../style/variables.scss";
+
+.navbar {
+  background-color: $primary;
+  .container {
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    height: 68px;
+  }
+}

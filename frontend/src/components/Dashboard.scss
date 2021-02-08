@@ -1,0 +1,16 @@
+.dashboard {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  &__grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
